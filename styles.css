@@ -1,0 +1,234 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #1A120B;
+    color: #D5CEA3;
+    padding: 2rem;
+}
+
+h1 {
+    color: #E5E5CB;
+}
+
+a {
+    color: #D5CEA3;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.back {
+    margin-top: 1rem;
+}
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #1A120B;
+    color: #D5CEA3;
+    padding: 2rem;
+}
+
+h1 {
+    color: #E5E5CB;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    max-width: 400px;
+}
+
+input, textarea {
+    padding: 0.5rem;
+    border: none;
+    border-radius: 5px;
+}
+
+input[type="submit"] {
+    background-color: #3C2A21;
+    color: #E5E5CB;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #5A4A3A;
+}
+
+a {
+    color: #D5CEA3;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.back {
+    margin-top: 1rem;
+}
+
+.social-media {
+    margin-top: 2rem;
+    display: flex;
+    gap: 1rem;
+}
+
+.social-media a img {
+    width: 32px;
+    height: 32px;
+    filter: brightness(0) invert(1);
+}
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #1A120B;
+    color: #D5CEA3;
+}
+
+nav {
+    background-color: #3C2A21;
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #D5CEA3;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    color: #D5CEA3;
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 4rem 2rem;
+    background-color: #1A120B;
+}
+
+.hero-text {
+    max-width: 50%;
+}
+
+.hero-text h1 {
+    font-size: 3rem;
+    line-height: 1.2;
+    color: #E5E5CB;
+}
+
+.hero-text p {
+    margin: 1rem 0;
+    font-size: 1.2rem;
+    color: #D5CEA3;
+}
+
+.hero-text .buttons {
+    margin-top: 1.5rem;
+}
+
+.hero-text .buttons a {
+    text-decoration: none;
+    font-size: 1rem;
+    padding: 0.8rem 1.5rem;
+    border-radius: 5px;
+    margin-right: 1rem;
+}
+
+.hero-text .buttons .discover {
+    background-color: #3C2A21;
+    color: #E5E5CB;
+}
+
+.hero-text .buttons .contact {
+    background-color: transparent;
+    border: 2px solid #D5CEA3;
+    color: #D5CEA3;
+}
+
+.hero-image img {
+    width: 500px;
+    height: auto;
+    border-radius: 10px;
+}
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #1A120B;
+    color: #D5CEA3;
+    padding: 2rem;
+}
+
+h1 {
+    color: #E5E5CB;
+}
+
+ul {
+    padding-left: 1.5rem;
+}
+
+li {
+    margin-bottom: 0.5rem;
+}
+
+a {
+    color: #D5CEA3;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.back {
+    margin-top: 1rem;
+}
+.cat-animation {
+    position: relative;
+    margin-top: 2rem;
+    height: 100px;
+}
+
+.cat-animation {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    position: relative;
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: 2;
+    animation-direction: alternate;  
+  }
+  
+  @keyframes example {
+    0%   {background-color:red; left:0px; top:0px;}
+    25%  {background-color:yellow; left:200px; top:0px;}
+    50%  {background-color:blue; left:200px; top:200px;}
+    75%  {background-color:green; left:0px; top:200px;}
+    100% {background-color:red; left:0px; top:0px;}
+  }
